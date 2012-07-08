@@ -142,6 +142,7 @@
 <text x="29.21" y="50.8" size="0.6096" layer="121">B</text>
 <text x="10.16" y="77.47" size="0.8128" layer="121">Analog ambient light adapter</text>
 <text x="10.16" y="76.2" size="0.6096" layer="121">Jeremy Ruhland</text>
+<text x="10.16" y="74.93" size="0.6096" layer="121">Order # 100000317</text>
 </plain>
 <libraries>
 <library name="adafruit">
