@@ -6643,26 +6643,10 @@ Source: DCJ0303.pdf</description>
 </net>
 <net name="R_PWR" class="0">
 <segment>
-<pinref part="JP4" gate="G$1" pin="2"/>
-<pinref part="JP3" gate="G$1" pin="2"/>
-<pinref part="JP2" gate="G$1" pin="2"/>
-<pinref part="JP2" gate="G$1" pin="2"/>
-<pinref part="JP1" gate="G$1" pin="2"/>
-<wire x1="68.58" y1="-7.62" x2="76.2" y2="-7.62" width="0.1524" layer="91"/>
-<junction x="76.2" y="-7.62"/>
-<wire x1="76.2" y1="-7.62" x2="83.82" y2="-7.62" width="0.1524" layer="91"/>
-<junction x="83.82" y="-7.62"/>
-<wire x1="83.82" y1="-7.62" x2="91.44" y2="-7.62" width="0.1524" layer="91"/>
-<wire x1="68.58" y1="-7.62" x2="63.5" y2="-7.62" width="0.1524" layer="91"/>
-<label x="63.5" y="-7.62" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="Q1" gate="G$1" pin="D"/>
 <wire x1="114.3" y1="81.28" x2="114.3" y2="83.82" width="0.1524" layer="91"/>
 <label x="114.3" y="83.82" size="1.778" layer="95"/>
 </segment>
-</net>
-<net name="G_PWR" class="0">
 <segment>
 <pinref part="JP4" gate="G$1" pin="3"/>
 <pinref part="JP3" gate="G$1" pin="3"/>
@@ -6677,10 +6661,26 @@ Source: DCJ0303.pdf</description>
 <wire x1="68.58" y1="-10.16" x2="63.5" y2="-10.16" width="0.1524" layer="91"/>
 <label x="63.5" y="-10.16" size="1.778" layer="95"/>
 </segment>
+</net>
+<net name="G_PWR" class="0">
 <segment>
 <pinref part="Q2" gate="G$1" pin="D"/>
 <wire x1="114.3" y1="63.5" x2="114.3" y2="66.04" width="0.1524" layer="91"/>
 <label x="114.3" y="66.04" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP4" gate="G$1" pin="2"/>
+<pinref part="JP3" gate="G$1" pin="2"/>
+<pinref part="JP2" gate="G$1" pin="2"/>
+<pinref part="JP2" gate="G$1" pin="2"/>
+<pinref part="JP1" gate="G$1" pin="2"/>
+<wire x1="68.58" y1="-7.62" x2="76.2" y2="-7.62" width="0.1524" layer="91"/>
+<junction x="76.2" y="-7.62"/>
+<wire x1="76.2" y1="-7.62" x2="83.82" y2="-7.62" width="0.1524" layer="91"/>
+<junction x="83.82" y="-7.62"/>
+<wire x1="83.82" y1="-7.62" x2="91.44" y2="-7.62" width="0.1524" layer="91"/>
+<wire x1="68.58" y1="-7.62" x2="63.5" y2="-7.62" width="0.1524" layer="91"/>
+<label x="63.5" y="-7.62" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="B_PWR" class="0">
