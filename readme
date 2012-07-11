@@ -1,1 +1,4 @@
 VGA adapter for homemade ambient lighting through RGB led strips.
+Designed with this in mind: https://www.adafruit.com/products/285
+Although other suppliers/strips are certainly compatible.
+Note: analog strips only, not digital.
